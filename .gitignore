@@ -1,0 +1,29 @@
+# Dataset files
+data/*.csv
+data/model_metrics.json
+
+# Generated data and trained models
+storage/
+models/
+*.parquet
+*.model
+*.pkl
+*.joblib
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment secrets
+.env
+.env.*
+
+# IDE and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
